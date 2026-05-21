@@ -82,7 +82,8 @@ Password: Admin123
 ## Step 1 — Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/watchhub.git
+git clone https://github.com/Sehrish-Deen/Flutter_WatchHub_App.git
+
 ```
 
 ---
