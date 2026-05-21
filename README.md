@@ -115,7 +115,7 @@ flutter run
 
 ## Splash Screen
 
-![Splash Screen](screenshots/splash.png)
+![Splash Screen](screenshots/splash1.png)
 
 ---
 
