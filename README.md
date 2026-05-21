@@ -1,40 +1,56 @@
 # WatchHub ⌚
 
 A modern Flutter-based eCommerce watch application with complete User and Admin functionalities.  
-WatchHub allows users to browse premium watches, place orders, apply coupons, track deliveries, and receive notifications about sales and deals.  
-The application also includes a powerful Admin Panel for managing products, orders, coupons, and promotional notifications.
+WatchHub provides a smooth shopping experience where users can browse premium watches, manage profiles, apply coupons, add products to wishlist/cart, place orders, and track deliveries.
+
+The application also includes a powerful Admin Panel to manage products, orders, coupons, feedback, reviews, notifications, and promotional sales.
 
 ---
 
-# 📱 Features
+# 📱 App Features
 
-## 👤 User Side Features
+# 👤 User Side Features
 
+- Splash Screen
 - User Registration & Login
 - Secure Authentication
 - Proper Form Validation
-- Browse Watches
-- Watch Details Preview
+- Front/Home Page
+- Product Categories
+- Product Filters
+- Product Details Preview
+- Wishlist Management
 - Add to Cart
+- Checkout System
 - Apply Coupon Codes
-- Place Orders
+- Order Placement
 - Order Tracking
-- Profile Management
-- Product Reviews & Comments
-- Receive Notifications for Sales & Deals
-- Responsive UI Design
+- User Profile Management
+- Sidebar Navigation Drawer
+- Reviews & Comments System
+- Notifications for Deals & Discounts
+- About Us Section
+- Privacy Policy Section
+- Contact Us Page
+- Feedback System
+- Settings Screen
+- Responsive Modern UI
 
 ---
 
-## 🛠️ Admin Side Features
+# 🛠️ Admin Side Features
 
 - Admin Login
-- Add New Watches
-- Update/Delete Watches
+- Admin Dashboard
+- Add New Products
+- Edit/Delete Products
+- Manage Categories
 - Manage Orders
-- Create & Manage Coupon Codes
+- Create & Manage Coupons
+- View User Feedback
+- View User Reviews
 - Send Promotional Notifications
-- Manage Sales & Deals
+- Manage Deals & Sales
 - Monitor User Activity
 
 ---
@@ -56,32 +72,8 @@ Password: Admin123
 - Cloud Firestore
 - Firebase Storage
 - Provider / GetX
-- REST APIs
 - Shared Preferences
-
----
-
-# 📂 Folder Structure
-
-```text
-lib/
-│
-├── admin/
-│   ├── screens/
-│   ├── widgets/
-│   └── services/
-│
-├── user/
-│   ├── screens/
-│   ├── widgets/
-│   └── services/
-│
-├── models/
-├── utils/
-├── firebase/
-├── main.dart
-└── pubspec.yaml
-```
+- REST APIs
 
 ---
 
@@ -121,73 +113,211 @@ flutter run
 
 # 📸 App Screenshots
 
-## Home Screen
+## Splash Screen
 
-```md
-![Home Screen](screenshots/home.png)
-```
-
-## Login Screen
-
-```md
-![Login Screen](screenshots/login.png)
-```
-
-## Product Details
-
-```md
-![Product Details](screenshots/details.png)
-```
-
-## Cart Screen
-
-```md
-![Cart Screen](screenshots/cart.png)
-```
-
-## Admin Dashboard
-
-```md
-![Admin Dashboard](screenshots/admin_dashboard.png)
-```
+![Splash Screen](screenshots/splash.png)
 
 ---
 
-# 🖼️ How to Add Screenshot Preview
+## Login Screen
 
-## Step 1 — Create Folder
+![Login Screen](screenshots/login.png)
 
-Project root me folder banao:
+---
+
+## Account Create Screen
+
+![Register Screen](screenshots/register.png)
+
+---
+
+## Front Page
+
+![Front Page](screenshots/frontpage.png)
+
+---
+
+## Sidebar Navigation
+
+![Sidebar](screenshots/sidebar.png)
+
+---
+
+## Categories Screen
+
+![Categories](screenshots/categories.png)
+
+---
+
+## Product Filters
+
+![Filters](screenshots/filters.png)
+
+---
+
+## Product Details
+
+![Product Details](screenshots/details.png)
+
+---
+
+## Wishlist Screen
+
+![Wishlist](screenshots/wishlist.png)
+
+---
+
+## Cart Screen
+
+![Cart](screenshots/cart.png)
+
+---
+
+## Checkout Screen
+
+![Checkout](screenshots/checkout.png)
+
+---
+
+## Coupons Section
+
+![Coupons](screenshots/coupons.png)
+
+---
+
+## Orders Screen
+
+![Orders](screenshots/orders.png)
+
+---
+
+## Profile Screen
+
+![Profile](screenshots/profile.png)
+
+---
+
+## Comments & Reviews
+
+![Reviews](screenshots/reviews.png)
+
+---
+
+## About Us
+
+![About Us](screenshots/about.png)
+
+---
+
+## Privacy Policy
+
+![Privacy](screenshots/privacy.png)
+
+---
+
+## Contact Us
+
+![Contact Us](screenshots/contact.png)
+
+---
+
+## Feedback Screen
+
+![Feedback](screenshots/feedback.png)
+
+---
+
+## Settings Screen
+
+![Settings](screenshots/settings.png)
+
+---
+
+# 🛠️ Admin Panel Screenshots
+
+## Admin Dashboard
+
+![Admin Dashboard](screenshots/dashboard.png)
+
+---
+
+## Add Product Screen
+
+![Add Product](screenshots/add_product.png)
+
+---
+
+## Manage Products
+
+![Manage Products](screenshots/manage_products.png)
+
+---
+
+## Order Management
+
+![Order Management](screenshots/order_management.png)
+
+---
+
+## Coupon Management
+
+![Coupon Management](screenshots/coupon_management.png)
+
+---
+
+## User Feedback Management
+
+![Feedback Management](screenshots/feedback_management.png)
+
+---
+
+## User Reviews Management
+
+![Reviews Management](screenshots/reviews_management.png)
+
+---
+
+# 🖼️ Screenshot Folder Structure
+
+Create a folder named:
 
 ```text
 screenshots/
 ```
 
----
-
-## Step 2 — Add Images
-
-Example:
+Add all screenshots inside it:
 
 ```text
-screenshots/home.png
-screenshots/login.png
-screenshots/cart.png
-screenshots/details.png
-screenshots/admin_dashboard.png
+screenshots/
+│
+├── splash.png
+├── login.png
+├── register.png
+├── frontpage.png
+├── sidebar.png
+├── categories.png
+├── filters.png
+├── details.png
+├── wishlist.png
+├── cart.png
+├── checkout.png
+├── coupons.png
+├── orders.png
+├── profile.png
+├── reviews.png
+├── about.png
+├── privacy.png
+├── contact.png
+├── feedback.png
+├── settings.png
+├── dashboard.png
+├── add_product.png
+├── manage_products.png
+├── order_management.png
+├── coupon_management.png
+├── feedback_management.png
+└── reviews_management.png
 ```
-
----
-
-## Step 3 — Push Changes
-
-```bash
-git add .
-git commit -m "Added README and screenshots"
-git push
-```
-
-GitHub automatically images preview show karega.
 
 ---
 
@@ -210,7 +340,7 @@ Admins can:
 - Send Sale Notifications
 - Send Deal Alerts
 - Notify Users About Discounts
-- Announce New Watch Collections
+- Announce New Product Collections
 
 ---
 
@@ -253,6 +383,8 @@ Admins can:
 - Responsive Design
 - Smooth Navigation
 - User-Friendly Experience
+- Attractive Product Layout
+- Organized Dashboard Design
 
 ---
 
@@ -260,9 +392,9 @@ Admins can:
 
 - Online Payment Integration
 - Dark Mode
-- Wishlist Feature
-- AI Watch Recommendations
 - Multi-language Support
+- AI Recommendations
+- Live Chat Support
 
 ---
 
